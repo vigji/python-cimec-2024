@@ -1,4 +1,4 @@
-# Python for (open) Neuroscience
+# Python for (open) Neuroscience  - 2024
 
 <img align="right" width="400" height="400" src="https://imgs.xkcd.com/comics/python.png">
 
