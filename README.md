@@ -31,7 +31,7 @@ A schedule for each module could be:
 **Dates**: the course will run every Monday (tentative time: 17:00-19:00) from February to May 2024. Dates are flexible and we can change them during the course if there's constraints/preferences on the student's side.
     
 
-**Framework and requirements**: You will be following the course on your own laptop. The first two modules will be teaching using **Google Colab**, with **no setup required** (you will only need a browser and a working internet connection). In the second part we will move to **Jupyter Notebooks**, to understand how to **set up an real-world Python environment** that can be used in the every day research work. There won't be system requirements, we should be able to set it up on Windows, MacOS, and Linux (you will have instructions and assistance for doing that!).
+**Framework and requirements**: You will be following the course on your own laptop. The first two modules will be teaching using **Google Colab**, with **no installation required** (you will only need a browser and a working internet connection). In the second part we will move to **Jupyter Notebooks**, to understand how to **set up an real-world Python environment** that can be used in the every day research work. There won't be system requirements, we should be able to set it up on Windows, MacOS, and Linux (you will have instructions and assistance for doing that!).
 
 **Assignments**: At the end of each of the first three modules there will be **a minimal recap assigment**, and a **time slot to ask questions** on the lectures and on the assignment. 
 
@@ -47,17 +47,14 @@ Syllabus for the course. Ideally, its incremental nature should ensure that each
 
 
 ### Module 0: the fundamentals 🏗
-A very basic introduction to the basic syntax and structure of Python code, just a smattering: more will come while exploring other modules.
+A gentle introduction to the basic syntax and structure of Python code, just a smattering: more will come while exploring other modules.
 
- - **0.0. Introduction to Python variables and statements**
-    -  <ins>Theory:</ins> Variable types (numbers, strings) and their operators, data structures (lists, dictionaries), basic clauses (conditionals, while/for  loops, try-except); simple file reading. 
-    - <ins>Practicals:</ins>Exercises tba.
-  - **0.1. Functions (and modules ?)**
-    - <ins>Theory:</ins> Reusing code in Python: functions (definition, argument passing, scope), modules (make a new module, import functions from existing library); installing new libraries with `pip`.
-    - <ins>Practicals:</ins> exercises on functions; create a simple module; `pip install` a new library and use it.
-  - **0.2. Fundamentals of classes and objects**
-    - <ins>Theory:</ins> Definition of classes and their components (methods, attributes, properties); objects and object instantiation.
-    - <ins>Practicals:</ins> write a simple custom class. Interact and use previously defined classes, search for their methods and attributes.
+ - **0.0. Introduction to Python variables and statements**: The very fundamentals of Python syntax; variable types (numbers, strings) and their operators.
+ - **0.1. Data structures and flow controls**: data structures (lists, dictionaries, tuples, sets), basic clauses (`if`/`elif`/`else`, `while`/`for`  loops).
+ - **0.2. More flow control, and style**: first notes on style; jupyter notebook tricks; `break`, `continue`,
+ - **0.3. Flow control, functions (and modules ?)**: `try`/`except`; packing code in a function
+ - **0.4. Fundamentals of classes and objects**: Definition of classes and their components (methods, attributes, properties); using classes and reading their docs
+ - **0.5. Creating new classes**: how can we create a new class; practical examples of classes for data loading
 
 **Assignment**: Exercises tba
 
@@ -67,15 +64,9 @@ A very basic introduction to the basic syntax and structure of Python code, just
 ### Module 1: the scientific stack in Python 📚
 We introduce the Holy Trinity of data analysis: `numpy`, `pandas`, and `matplotlib`; and we show how they solve almost all our data analysis problems.
 
- - **1.0. `numpy`**
-    - <ins>Theory:</ins> Data types: the `np.array`. initialisation, operators, indexing (numerical and boolean masking); operations with arrays (concatenate, stack, searching extrema, sorting, using sorting indexes). Visualising arrays and matrices with `matplotlib`. Reading and writing `.npy` files.
-    - <ins>Practicals:</ins> Exercises tba, ideally with some neuro-related data. Turning `for` loops into vector operations.
- - **1.1. `pandas`**: 
-    - <ins>Theory:</ins> `pd.Series` and `pd.DataFrames`; reading and writing `.csv` files. Optimal ways to organize data in dataframes. Working with dataframes: indexing, slicing, selecting, querying, interpolating, mapping. Using `matplotlib` to visualise datasets. 
-    - <ins>Practicals:</ins> exercises tba, ideally with some neuro-related data. Important: show how labelled data in `pandas` make operations easier than when using `numpy`.
- - **1.2. More on `pandas`**: 
-    - <ins>Theory:</ins> Advanced `pandas`: aggregated operations using `groupby()` and `rolling()`. Group statistics, smoothing, resampling. Mindblowing `pandas` (depending on progress/interest): hierarchical indexing with `MultiIndex`, aggregated operations, dataset alignment. Introduction to `seaborn` for dataset visualization.
-    - <ins>Practicals:</ins> show how to easily make aggregate statistics and visualisations using `seaborn`.
+ - **1.0. `numpy` and `matplotlib`**: Data types: the `np.array`. initialisation, operators, indexing (numerical and boolean masking); operations with arrays (concatenate, stack, searching extrema, sorting, using sorting indexes). Visualising arrays and matrices with `matplotlib`. Reading and writing `.npy` files.
+ - **1.1. `pandas`**: `pd.Series` and `pd.DataFrames`; reading and writing `.csv` files. Optimal ways to organize data in dataframes. Working with dataframes: indexing, slicing, selecting, querying, interpolating, mapping. Using `matplotlib` to visualise datasets. 
+ - **1.2. More on `pandas`** Advanced `pandas`: aggregated operations using `groupby()` and `rolling()`. Group statistics, smoothing, resampling. Mindblowing `pandas` (depending on progress/interest): hierarchical indexing with `MultiIndex`, aggregated operations, dataset alignment. Introduction to `seaborn` for dataset visualization.
 
 **Assignment**: Exercise tba
 
@@ -87,10 +78,8 @@ We start using all of the above on some real world scenario and neuroscientific 
 
 - **2.0. Real-world Python for real-world data**
  - <ins>Theory:</ins> Moving from Google Colab from local Python (using Anaconda) and jupyter notebook; understand where things are in a local installation; install new modules with `pip`. Interact with local data: browse and reorganize folders; opening or importing the most common data types that might come from experiments (`.txt`, `.csv`, `.xlsx`, `.mat`, `.tiff`, ...to adjust depending on interest).
-    - <ins>Practicals:</ins> Set up a working local Python environment, load some data and make some plots.
 - **2.1. Images**
     - <ins>Theory:</ins> Images and stacks data formats. Opening and writing different data formats (`.tiffs`, `.nrrd`, `.nii`). Visualising images with `matplotlib` and videos and stacks with `napari`. Simple image operations (cropping, smoothing, resizing, histogram normalisation...); batch processing of images.
-    - <ins>Practicals:</ins> Exercises tba
  - **2.2. Time series**
     - <ins>Theory:</ins>Working with time series using `numpy` and `pandas`. Reading and writing time series data. Resampling, event detection (eg spike detection or artefact identification), event-triggered cropping. Filtering, smoothing (if there is interest/time, introduction to tools for frequency-domain analysis). 
     - <ins>Practicals:</ins> Exercises tba
