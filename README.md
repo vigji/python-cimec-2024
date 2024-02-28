@@ -10,25 +10,16 @@ This course will start covering **the basics of Python usage** and build up from
 <br/><br/>
 <br/><br/>
 
+## Lectures recordings
+- [Lecture 0.1]([https://youtu.be/ROFbFADkKpU](https://youtu.be/TMss3OOHrLE)): Data structures (list, dict, tuple, set)
+
+---
 
 ## Organization of the course
 
 **Structure**: The course will be organized in four modules. Each module comprises three sessions, two hours each, that will mix frontal lectures and hands-on parts to work on in pairs (peer coding). 
-
-A schedule for each module could be:
-- Week 0:
-    - Lecture x.0
-    - Assignments
-- Week 1:
-    - Lecture x.1
-    - Assignments
-- Week 2:
-    - Lecture x.2
-    -  Assignments
-- Week 3:
-    - Office hours
  
-**Dates**: the course will run every Monday (tentative time: 17:00-19:00) from February to May 2024. Dates are flexible and we can change them during the course if there's constraints/preferences on the student's side.
+**Schedule**: the course will run every Monday (tentative time: 17:00-19:00) from February to May 2024. Dates are flexible and we can change them during the course if there's constraints/preferences on the student's side.
     
 
 **Framework and requirements**: You will be following the course on your own laptop. The first two modules will be teaching using **Google Colab**, with **no installation required** (you will only need a browser and a working internet connection). In the second part we will move to **Jupyter Notebooks**, to understand how to **set up an real-world Python environment** that can be used in the every day research work. There won't be system requirements, we should be able to set it up on Windows, MacOS, and Linux (you will have instructions and assistance for doing that!).
@@ -36,8 +27,6 @@ A schedule for each module could be:
 **Assignments**: At the end of each of the first three modules there will be **a minimal recap assigment**, and a **time slot to ask questions** on the lectures and on the assignment. 
 
 **Material**: The material will consist in jupyter notebooks and python scripts with the lecture content and exercises and it will be made available before the lectures using GitHub. 
-
-
 
 
 ## Syllabus
@@ -50,11 +39,12 @@ Syllabus for the course. Ideally, its incremental nature should ensure that each
 A gentle introduction to the basic syntax and structure of Python code, just a smattering: more will come while exploring other modules.
 
  - **0.0. Introduction to Python variables and statements**: The very fundamentals of Python syntax; variable types (numbers, strings) and their operators.
- - **0.1. Data structures and flow controls**: data structures (lists, dictionaries, tuples, sets), basic clauses (`if`/`elif`/`else`, `while`/`for`  loops).
- - **0.2. More flow control, and style**: first notes on style; jupyter notebook tricks; `break`, `continue`,
- - **0.3. Flow control, functions (and modules ?)**: `try`/`except`; packing code in a function
- - **0.4. Fundamentals of classes and objects**: Definition of classes and their components (methods, attributes, properties); using classes and reading their docs
- - **0.5. Creating new classes**: how can we create a new class; practical examples of classes for data loading
+ - **0.1. Data structures and flow controls**: data structures (lists, dictionaries, tuples, sets),
+ - 
+ - **[planned] 0.2. More flow control, and style**: basic clauses (`if`/`elif`/`else`, `while`/`for`  loops), first notes on style; jupyter notebook tricks; `break`, `continue`,
+ - **[planned] 0.3. Flow control, functions (and modules ?)**: `try`/`except`; packing code in a function
+ - **[planned] 0.4. Fundamentals of classes and objects**: Definition of classes and their components (methods, attributes, properties); using classes and reading their docs
+ - **[planned] 0.5. Creating new classes**: how can we create a new class; practical examples of classes for data loading
 
 **Assignment**: Exercises tba
 
@@ -64,9 +54,9 @@ A gentle introduction to the basic syntax and structure of Python code, just a s
 ### Module 1: the scientific stack in Python 📚
 We introduce the Holy Trinity of data analysis: `numpy`, `pandas`, and `matplotlib`; and we show how they solve almost all our data analysis problems.
 
- - **1.0. `numpy` and `matplotlib`**: Data types: the `np.array`. initialisation, operators, indexing (numerical and boolean masking); operations with arrays (concatenate, stack, searching extrema, sorting, using sorting indexes). Visualising arrays and matrices with `matplotlib`. Reading and writing `.npy` files.
- - **1.1. `pandas`**: `pd.Series` and `pd.DataFrames`; reading and writing `.csv` files. Optimal ways to organize data in dataframes. Working with dataframes: indexing, slicing, selecting, querying, interpolating, mapping. Using `matplotlib` to visualise datasets. 
- - **1.2. More on `pandas`** Advanced `pandas`: aggregated operations using `groupby()` and `rolling()`. Group statistics, smoothing, resampling. Mindblowing `pandas` (depending on progress/interest): hierarchical indexing with `MultiIndex`, aggregated operations, dataset alignment. Introduction to `seaborn` for dataset visualization.
+ - **[planned] 1.0. `numpy` and `matplotlib`**: Data types: the `np.array`. initialisation, operators, indexing (numerical and boolean masking); operations with arrays (concatenate, stack, searching extrema, sorting, using sorting indexes). Visualising arrays and matrices with `matplotlib`. Reading and writing `.npy` files.
+ - **[planned] 1.1. `pandas`**: `pd.Series` and `pd.DataFrames`; reading and writing `.csv` files. Optimal ways to organize data in dataframes. Working with dataframes: indexing, slicing, selecting, querying, interpolating, mapping. Using `matplotlib` to visualise datasets. 
+ - **[planned] 1.2. More on `pandas`** Advanced `pandas`: aggregated operations using `groupby()` and `rolling()`. Group statistics, smoothing, resampling. Mindblowing `pandas` (depending on progress/interest): hierarchical indexing with `MultiIndex`, aggregated operations, dataset alignment. Introduction to `seaborn` for dataset visualization.
 
 **Assignment**: Exercise tba
 
@@ -76,11 +66,11 @@ We introduce the Holy Trinity of data analysis: `numpy`, `pandas`, and `matplotl
 ### Module 2: Python for neuroscientific data 🔬
 We start using all of the above on some real world scenario and neuroscientific data, trying to find common solutions to problems and tasks from different fields.
 
-- **2.0. Real-world Python for real-world data**
+- **[planned] 2.0. Real-world Python for real-world data**
  - <ins>Theory:</ins> Moving from Google Colab from local Python (using Anaconda) and jupyter notebook; understand where things are in a local installation; install new modules with `pip`. Interact with local data: browse and reorganize folders; opening or importing the most common data types that might come from experiments (`.txt`, `.csv`, `.xlsx`, `.mat`, `.tiff`, ...to adjust depending on interest).
-- **2.1. Images**
+- **[planned] 2.1. Images**
     - <ins>Theory:</ins> Images and stacks data formats. Opening and writing different data formats (`.tiffs`, `.nrrd`, `.nii`). Visualising images with `matplotlib` and videos and stacks with `napari`. Simple image operations (cropping, smoothing, resizing, histogram normalisation...); batch processing of images.
- - **2.2. Time series**
+ - **[planned] 2.2. Time series**
     - <ins>Theory:</ins>Working with time series using `numpy` and `pandas`. Reading and writing time series data. Resampling, event detection (eg spike detection or artefact identification), event-triggered cropping. Filtering, smoothing (if there is interest/time, introduction to tools for frequency-domain analysis). 
     - <ins>Practicals:</ins> Exercises tba
 
@@ -92,6 +82,7 @@ We start using all of the above on some real world scenario and neuroscientific 
 ### Module 3: Advanced topics in Python for neuroscience ☄️
 We see how to bring home the bacon with Python as neuroscientists. Keep your code organised, generate good paper figures, make sure that your code is documented and accessible. Here are some possible topics, but we will choose together and pick up three based on interest.
 
+Here are some options:
 - **Advanced visualisation and data rendering**
     - <ins>Theory:</ins> Some basic concepts and rules of data visualisation using `matplotlib`, tips for generating paper quality figures. More on `pandas` and `seaborn`. How to create animations with `matplotlib` and `napari`.
     - <ins>Practicals:</ins> Exercises tba.
@@ -135,16 +126,6 @@ Those is mostly aimed at people who have never written a line of Python, or have
 - [Python for neuroscientists](https://pyforneuro.com/)
 - [Case Studies in Neural Data Analysis](https://mark-kramer.github.io/Case-Studies-Python/intro.html)
 - [Computational Neuroscience in Python textbook](https://mrgreene09.github.io/computational-neuroscience-textbook/)
-
-## Old Lectures recordings
-- [Lecture 2.0](https://youtu.be/ROFbFADkKpU): Local Python installation, demistified
-- [Lecture 2.1](https://youtu.be/O_rRMRIJdxc): Jupyter notebooks and working with the filesystem
-- [Lecture 2.2](https://youtu.be/BzLIZx4Y-E8): Working with images and imaging data
-- [Lecture 3.0](https://youtu.be/UF2rJg5aCYo): Version control using GitHub
-- (Lecture 3.1 missing - Imaging data analysis)
-- [Lecture 3.2](https://youtu.be/8QhOFkEkhoQ): Introduction to statistics and machine learning
-- (Lecture 3.3 missing - Running experiments in Python)
-- [Lecture 3.4](https://youtu.be/GjYWyihBAoo): Data visualization
 
 
 
