@@ -12,6 +12,7 @@ This course will start covering **the basics of Python usage** and build up from
 
 ## Lectures recordings
 - [Lecture 0.1](https://youtu.be/TMss3OOHrLE): Data structures (list, dict, tuple, set)
+- [Lecture 0.2](https://youtu.be/34A9iWaIqvM): Flow controls (if/else, for)
 
 ---
 
