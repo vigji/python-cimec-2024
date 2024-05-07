@@ -1,5 +1,5 @@
 # A clean Python installation using `conda`
-_(as of May 2023)_
+_(as of May 2024)_
 
 It is finally the moment to move from the safe harbours of Google Colab into the perilous waters of local Python installations! 
 
